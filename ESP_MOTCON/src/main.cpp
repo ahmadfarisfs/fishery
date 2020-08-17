@@ -20,7 +20,7 @@ SoftwareSerial mSerial(D1, D2, false); //rx = io5 (D1), tx = io4 (D2)
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   String tbKey = String("z5NvbcpglGAMB0bTaKer");
 
   #ifdef BREADBOARD
@@ -28,7 +28,7 @@ void setup()
   serialCmd.init(&Serial, 500); 
   #else
   //real board use this config so uart wont collide
-  mSerial.begin(115200);
+  mSerial.begin(9600);
   serialCmd.init(&mSerial, 500);
   #endif
 

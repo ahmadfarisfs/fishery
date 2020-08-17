@@ -39,7 +39,7 @@ void buttonPressedCallback(char buttonLabel){
 void setup()
 {
   //serial for debug and comm
-  Serial.begin(115200);
+  Serial.begin(9600);
 
   //setup comm channel to esp, use DI
   commChannel.init(&Serial, 500);

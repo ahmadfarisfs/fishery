@@ -24,9 +24,9 @@ bool Thingsboard::postData(int8_t motorSpeed, char button)
     //Serial.println(url);
     m_client.addHeader("Content-Type", "application/json");
     String payload = "{\"button\":  \"" + String(button) + "\", \"speed\": "+ String(motorSpeedChr) + " }";
-   Serial.println(payload);
     int httpResponseCode = m_client.POST(payload);
-  //  Serial.println(httpResponseCode);
+    Serial.println(payload);
+    Serial.println(httpResponseCode);
     if (httpResponseCode == 200)
     {
         return true;

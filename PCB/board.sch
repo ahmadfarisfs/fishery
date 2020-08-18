@@ -29025,11 +29025,11 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <part name="S5" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:12151647" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" package3d_urn="urn:adsk.eagle:package:12152125/1" value="RESET"/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:12151152" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:12148300" deviceset="FRAME-A4L" device=""/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value=" "/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value=" "/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value=" "/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value=" "/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value=" "/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value="1k"/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value="1k"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value="1k"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value="1k"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value="1M"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:12151152" deviceset="5V" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:12151152" deviceset="GND" device=""/>
 <part name="S6" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:12151647" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" package3d_urn="urn:adsk.eagle:package:12152125/1" value="RST"/>
@@ -29123,6 +29123,7 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <part name="R23" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value="1K"/>
 <part name="R24" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12151257" deviceset="RESISTOR" device="1206" package3d_urn="urn:adsk.eagle:package:12151458/1" value="1K"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:12151041" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:12151313/1"/>
+<part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:12151152" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29249,28 +29250,28 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <attribute name="SHEET" x="195.58" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DESIGNER" x="226.26" y="6.35" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="R1" gate="G$1" x="104.14" y="45.72" smashed="yes" rot="MR0">
-<attribute name="NAME" x="104.14" y="47.244" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="104.14" y="44.196" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="R1" gate="G$1" x="111.76" y="50.8" smashed="yes" rot="MR270">
+<attribute name="NAME" x="110.236" y="50.8" size="1.778" layer="95" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="113.284" y="50.8" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="104.14" y="38.1" smashed="yes" rot="MR0">
-<attribute name="NAME" x="104.14" y="39.624" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="104.14" y="36.576" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="R2" gate="G$1" x="111.76" y="38.1" smashed="yes" rot="MR270">
+<attribute name="NAME" x="110.236" y="38.1" size="1.778" layer="95" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="113.284" y="38.1" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="104.14" y="30.48" smashed="yes" rot="MR0">
-<attribute name="NAME" x="104.14" y="32.004" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="104.14" y="28.956" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="R3" gate="G$1" x="111.76" y="25.4" smashed="yes" rot="MR270">
+<attribute name="NAME" x="110.236" y="25.4" size="1.778" layer="95" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="113.284" y="25.4" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="104.14" y="22.86" smashed="yes" rot="MR0">
-<attribute name="NAME" x="104.14" y="24.384" size="1.778" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="104.14" y="21.336" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>
+<instance part="R4" gate="G$1" x="111.76" y="12.7" smashed="yes" rot="MR270">
+<attribute name="NAME" x="110.236" y="12.7" size="1.778" layer="95" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="113.284" y="12.7" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
 <instance part="R5" gate="G$1" x="81.28" y="12.7" smashed="yes" rot="MR270">
 <attribute name="NAME" x="79.756" y="12.7" size="1.778" layer="95" font="vector" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="82.804" y="12.7" size="1.778" layer="96" font="vector" rot="MR270" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="111.76" y="50.8" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="111.76" y="53.594" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="111.76" y="58.42" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="111.76" y="61.214" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="GND3" gate="1" x="81.28" y="5.08" smashed="yes">
 <attribute name="VALUE" x="81.28" y="4.826" size="1.778" layer="96" align="top-center"/>
@@ -29578,6 +29579,9 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <attribute name="NAME" x="61.468" y="82.169" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="61.468" y="76.835" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
+<instance part="GND21" gate="1" x="111.76" y="2.54" smashed="yes">
+<attribute name="VALUE" x="111.76" y="2.286" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29713,6 +29717,18 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="D3" gate="D1" pin="C"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="111.76" y1="7.62" x2="111.76" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="22.86" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="20.32" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="10.16" x2="104.14" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="7.62" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
+<junction x="111.76" y="7.62"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -29741,22 +29757,9 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <wire x1="17.78" y1="106.68" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="45.72" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
-<wire x1="111.76" y1="48.26" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="38.1" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="40.64" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
-<junction x="111.76" y="48.26"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="30.48" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="33.02" x2="111.76" y2="40.64" width="0.1524" layer="91"/>
-<junction x="111.76" y="40.64"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="22.86" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="25.4" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
-<junction x="111.76" y="33.02"/>
+<wire x1="111.76" y1="55.88" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="2"/>
@@ -29849,34 +29852,6 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <pinref part="J12" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="170.18" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
 <label x="40.64" y="170.18" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="S4" gate="G$1" pin="2"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="S2" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="S3" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -30394,6 +30369,41 @@ unregulated Single Output &lt;a href="https://snapeda.com/parts/B0505S-1WR2/MORN
 <pinref part="U6" gate="G$0" pin="IS"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="81.28" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="30.48" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="38.1" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="38.1" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<junction x="111.76" y="33.02"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="20.32" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="30.48" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="27.94" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="22.86" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="20.32" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
+<junction x="111.76" y="20.32"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="43.18" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<junction x="111.76" y="45.72"/>
+<pinref part="S4" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
